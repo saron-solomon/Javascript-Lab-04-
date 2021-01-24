@@ -5,10 +5,7 @@ let max = 50000;
 let min = 25;
 
 let accounts = new Array();
-
-
-
-
+// Functions
 let deposit = function (balance, amount) {
     balance += parseInt(amount);
     return balance;
@@ -42,8 +39,6 @@ let transfer = function (firstAccount, secondAccount, amount) {
 
 };
 
-
-
 let fetchAccount = function (accName) {
     if (accName === '1000') {
         return accountOne;
@@ -66,11 +61,7 @@ let accountTwo = {
 };
 
 
-
-
-
-
-
+// user prompt
 (function () {
 
 
