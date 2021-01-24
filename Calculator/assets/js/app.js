@@ -5,6 +5,8 @@ let firstNum;
 let secondNum;
 let nums = new Array();
 
+// functions
+
 let add = function (nums) {
     let sum = 0;
     nums.forEach(num => {
@@ -33,7 +35,7 @@ let divide = function (firstNum, secondNum) {
     }
 };
 
-
+//user prompt
 
 (function () {
 
