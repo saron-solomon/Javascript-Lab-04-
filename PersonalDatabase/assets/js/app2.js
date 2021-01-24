@@ -14,6 +14,8 @@ let personProfile = {
         let tempAge = this.ageCalc();
         if (tempAge >= 18) { this.isEligibleToVote = true; } else { this.isEligibleToVote = false; }
     },
+
+    // BMI Calculation
     calcBmi: function() {
 
         let bmi = this.weight / (this.height * this.height);
